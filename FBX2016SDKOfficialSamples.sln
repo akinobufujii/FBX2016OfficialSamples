@@ -111,6 +111,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserProperties", "UserPrope
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVSample", "UVSample\UVSample.vcxproj", "{1AA4EF97-2447-483A-9CE7-7255F88BFF41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED1BFAB7-5037-4E5D-926F-6B243326AAFF} = {ED1BFAB7-5037-4E5D-926F-6B243326AAFF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewScene", "ViewScene\ViewScene.vcxproj", "{21EE1629-19F8-4CBD-9DA5-795195F473D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED1BFAB7-5037-4E5D-926F-6B243326AAFF} = {ED1BFAB7-5037-4E5D-926F-6B243326AAFF}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -214,6 +222,10 @@ Global
 		{1AA4EF97-2447-483A-9CE7-7255F88BFF41}.Debug|Win32.Build.0 = Debug|Win32
 		{1AA4EF97-2447-483A-9CE7-7255F88BFF41}.Release|Win32.ActiveCfg = Release|Win32
 		{1AA4EF97-2447-483A-9CE7-7255F88BFF41}.Release|Win32.Build.0 = Release|Win32
+		{21EE1629-19F8-4CBD-9DA5-795195F473D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21EE1629-19F8-4CBD-9DA5-795195F473D0}.Debug|Win32.Build.0 = Debug|Win32
+		{21EE1629-19F8-4CBD-9DA5-795195F473D0}.Release|Win32.ActiveCfg = Release|Win32
+		{21EE1629-19F8-4CBD-9DA5-795195F473D0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
