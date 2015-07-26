@@ -1,6 +1,6 @@
 # FBX2016OfficialSamples
 
-http://192.168.0.123:8080/job/FBX2016OfficialSampleBuild/badge/icon
+[![Build Status](http://192.168.0.123:8080/job/FBX2016OfficialSampleBuild/badge/icon)](http://192.168.0.123:8080/job/FBX2016OfficialSampleBuild/)
 
 FBX2016 SDK で配布されているサンプルをVisual Studioで実行できるようにまとめたものです。
 
